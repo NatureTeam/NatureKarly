@@ -6,14 +6,14 @@ export default {
   args: { ...Button.defaultProps, children: '회원가입' },
 };
 
-export const 어떻게쓰는거야 = {};
-// export const Primary = {};
+// export const 어떻게쓰는거야 = {};
+export const Primary = {};
 
-// export const Secondary = {
-//   args: {
-//     secondary: true,
-//   },
-// };
+export const Secondary = {
+  args: {
+    secondary: true,
+  },
+};
 
 // export const PrimaryDisabled = {
 //   args: {

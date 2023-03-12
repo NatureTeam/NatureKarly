@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import { useTheme } from '../../theme/ThemeContext';
+// import { useTheme } from '../../theme/ThemeContext';
 import { getColor } from '../../theme/utils';
 
 // import { getColor } from '@/theme/utils';
@@ -31,8 +31,7 @@ function getClassName(isSecondary, disabled) {
 }
 
 export function Button({ secondary: isSecondary, disabled, ...restProps }) {
-  const theme = useTheme();
-  console.log('theme', theme);
+  // const theme = useTheme();
 
   return (
     <button
